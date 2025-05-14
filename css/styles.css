@@ -1,0 +1,284 @@
+@charset "UTF-8";
+/*font-family: 'Roboto', sans-serif;*/
+
+.navbar {
+    font-family: 'Roboto', sans-serif;
+	box-shadow: 1px 1px 5px #660000;
+}
+
+.nav-item{
+	font-size: 1.25rem;
+	margin-left: 20px;
+	font-weight: 500;
+}
+
+.nav-link {
+	color: #fff;
+}
+
+.nav-link:hover {
+	color: #6c757d;
+}
+
+.logo{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+
+
+.st0{stroke:#857D7D;
+	stroke-width:10;
+	stroke-miterlimit:10;
+}
+	
+.st1{
+	fill:#6D6E71;
+}
+	
+.st2{
+	fill:#D1D3D4;
+}
+
+#circle:hover{
+	fill:#48bfe3 ;
+	transition: fill .3s ease-out;
+}
+
+#grey_M:hover, #white_M:hover{
+	fill: #9d8189;
+}
+
+/*Typography*/
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+	color: #414141;
+	font-weight: 300;
+	line-height: 1.25;
+}
+
+blockquote p{
+font-family:'Roboto', sans-serif;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.7;	
+}
+
+/*Hero Sections*/
+#heroHomepage{
+	background-image: url("../img/hero/hero_homepage.jpg");
+	background-size: cover;
+	min-height: 50vh;
+	background-position: center;
+	text-shadow: 2px 2px 2px rgb(0,0,0,.2);
+}
+
+
+
+#heroNews{
+	background-image: url("../img/news/hero/hero.news.jpg");
+	background-size: cover;
+	min-height: 50vh;
+	background-position: center;
+	text-shadow: 2px 2px 2px rgb(0,0,0,.2);
+}
+
+#heroDiscover{
+	background-image: url("../img/discover/hero/discover.hero.jpg");
+	background-size: cover;
+	min-height: 50vh;
+	background-position: center;
+	text-shadow: 2px 2px 2px rgb(0,0,0,.2);
+}
+
+#heroReviews{
+	background-image: url("../img/reviews/hero/reviews.hero.jpg");
+	background-size: cover;
+	min-height: 50vh;
+	background-position: center;
+	text-shadow: 2px 2px 2px rgb(0,0,0,.2);
+}
+
+#heroAbout{
+	background-image: url("../img/About/hero/about.hero.jpg");
+	background-size: cover;
+	min-height: 50vh;
+	background-position: center;
+	text-shadow: 2px 2px 2px rgb(0,0,0,.2);
+}
+
+#heroParanoid{
+	background-image: url("../img/news/paranoid/paranoid.hero.jpg");
+	background-size: cover;
+	min-height: 50vh;
+	background-position: center;
+	text-shadow: 2px 2px 2px rgb(0,0,0,.2);
+}
+
+#heroTheQueenIsDead{
+	background-image: url("../img/news/the queen is dead/tqid.hero.jpg");
+	background-size: cover;
+	min-height: 50vh;
+	background-position: center;
+	text-shadow: 2px 2px 2px rgb(0,0,0,.2);
+}
+
+#heroSpunk{
+	background-image: url("../img/news/spunk/spunk.hero.jpg");
+	background-size: cover;
+	min-height: 50vh;
+	background-position: center;
+	text-shadow: 2px 2px 2px rgb(0,0,0,.2);
+}
+
+#heroSouvlaki{
+	background-image: url("../img/news/souvlaki/souvlaki.hero.jpg");
+	background-size: cover;
+	min-height: 50vh;
+	background-position: center;
+	text-shadow: 2px 2px 2px rgb(0,0,0,.2);
+}
+
+/*Other Reviews*/
+#ReviewEntryOne{
+	background-image: linear-gradient(rgba(19, 22, 176,.8),rgba(155, 66, 245,.5)),url("../img/reviews/other reviews/paranoid.jpg");
+	background-size: cover;
+	min-height: 25vh;
+	background-position: center;
+	text-shadow: 2px 2px 2px rgb(0,0,0,.2);
+	border-radius: .5rem;
+}
+
+#ReviewEntryTwo{
+	background-image: linear-gradient(rgba(19, 22, 176,.8),rgba(155, 66, 245,.5)), url("../img/reviews/other reviews/tqid.jpg");
+	background-size: cover;
+	min-height: 25vh;
+	background-position: center;
+	text-shadow: 2px 2px 2px rgb(0,0,0,.2);
+	border-radius: .5rem;
+}
+
+#ReviewEntryThree{
+	background-image: linear-gradient(rgba(19, 22, 176,.8),rgba(155, 66, 245,.5)), url("../img/reviews/other reviews/spunk.jpg");
+	background-size: cover;
+	min-height: 25vh;
+	background-position: center;
+	text-shadow: 2px 2px 2px rgb(0,0,0,.2);
+	border-radius: .5rem;
+}
+
+#ReviewEntryFour{
+	background-image: linear-gradient(rgba(19, 22, 176,.8),rgba(155, 66, 245,.5)),url("../img/reviews/other reviews/souvlaki.jpg");
+	background-size: cover;
+	min-height: 25vh;
+	background-position: center;
+	text-shadow: 2px 2px 2px rgb(0,0,0,.2);
+	border-radius: .5rem;
+}
+
+/*Carousel*/
+
+.carousel-indicators [data-bs-target]{
+	width: 12px;
+	height:12px;
+	border-radius: 50%;
+	margin-left: 4px;
+	margin-right: 4px;
+	background-color: #fff;
+	opacity: 1;
+}
+
+.carousel-indicators .active{
+	background-color: maroon;
+}
+
+/*Hierarchy Breadcrumb*/
+.breadcrumb{
+	font-family:'Roboto', sans-serif; 
+	font-weight: 400;
+}
+
+.breadcrumb-item a{
+	text-decoration: none;
+	color: maroon;
+}
+
+.breadcrumb-item a:hover{
+	color: black;
+}
+
+.breadcrumb-item.active{
+	color: black;
+}
+
+.breadcrumb-item+.breadcrumb-item:before{
+	color: #999;
+}
+
+/*Progress*/
+.progress {
+	height: 10px;
+	box-shadow: 1px 1px 2px rgba(0,0,0,.3);
+	border-radius: 0px;
+	background-color: green;
+}
+
+/*Profile Photo*/
+.profilePhoto {
+	background: linear-gradient(rgba(255, 51, 0,1),rgba(255,0,255,1));
+	border-radius: .5rem;
+}
+
+/*Accordion*/
+.accordion-button {
+	background: linear-gradient(90deg,rgba(237,110,160,1),rgba(170,227,124,1.00));
+	font-family: 'Roboto', sans-serif;
+	color: azure;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.accordion-button:not(.collapsed) {
+	background: linear-gradient(90deg,rgba(237,25,104,1),rgba(48,223,202,1.00));
+	font-family: 'Roboto', sans-serif;
+	color: azure;
+}
+
+.accordion-body ul li {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+/*Drop Cap Decorative*/
+.dropcap{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 4.5rem;
+	margin: 0.2rem 0.6rem 0 0 ;
+	line-height: 1;
+}
+   
+footer{
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	background-color: black;
+}
+
+footer .nav-link{
+	font-weight: 500;
+	font-size: .9rem;
+	color: #fff;
+}
+
+.table td {
+	background-color: grey;
+}
+
+.table th {
+	background-color: darkblue;
+}
+
